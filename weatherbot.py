@@ -4,13 +4,11 @@ from slackclient import SlackClient
 from tokens import owmtoken
 from tokens import slacktoken
 
-#owm = pyowm.OWM('1073e7c097580048cd7b08a816bcf60a')
 owm = pyowm.OWM(owmtoken)
 
 BOT_ID = 'U3VR1T7TM'
 AT_BOT = "<@" + BOT_ID + ">"
 PROMPT = 'weather'
-#SLACK_BOT_TOKEN = 'xoxb-131851925939-6Utai2IkHabljsa264XxXH6A'
 SLACK_BOT_TOKEN = slacktoken
 
 slack_client = SlackClient(SLACK_BOT_TOKEN)

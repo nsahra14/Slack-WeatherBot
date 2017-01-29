@@ -1,9 +1,10 @@
 import os
 from slackclient import SlackClient
+from tokens import slacktoken
 
 
 BOT_NAME = 'weatherbot'
-SLACK_BOT_TOKEN = 'xoxb-131851925939-6Utai2IkHabljsa264XxXH6A'
+SLACK_BOT_TOKEN = 'slacktoken'
 
 slack_client = SlackClient(SLACK_BOT_TOKEN)
 
