@@ -1,0 +1,40 @@
+EXAMPLES OF THE WEATHER OBJECT using .toJSON()
+
+NEW YORK
+{"weather_icon_name": "01n", 
+"pressure": {"sea_level": 1030.05, "press": 1022.1}, 
+"heat_index": null, 
+"humidity": 94, 
+"temperature": {"temp_kf": null, "temp_min": 270.933, "temp": 270.933, "temp_max": 270.933}, 
+"sunrise_time": 1485416766, 
+"humidex": null, 
+"weather_code": 800, 
+"clouds": 0, 
+"dewpoint": null, 
+"wind": {"speed": 3.86, "deg": 123.501}, 
+"visibility_distance": null, 
+"rain": {}, "sunset_time": 1485448862, 
+"detailed_status": "clear sky", 
+"reference_time": 1485460643, 
+"snow": {}, 
+"status": "Clear"}
+
+TORONTO
+{"weather_icon_name": "10d", 
+"pressure": {"sea_level": 1010.56, "press": 991.29}, 
+"heat_index": null, 
+"humidity": 89, 
+"temperature": {"temp_kf": null, "temp_min": 274.558, "temp": 274.558, "temp_max": 274.558}, 
+"sunrise_time": 1485434360, 
+"humidex": null, 
+"weather_code": 500, 
+"clouds": 92, 
+"dewpoint": null, 
+"wind": {"speed": 7.51, "deg": 306.001}, 
+"visibility_distance": null, 
+"rain": {"3h": 0.2475}, 
+"sunset_time": 1485469326, 
+"detailed_status": "light rain", 
+"reference_time": 1485461245, 
+"snow": {}, 
+"status": "Rain"}
