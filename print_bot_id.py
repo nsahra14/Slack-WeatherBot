@@ -4,7 +4,7 @@ from tokens import slacktoken
 
 
 BOT_NAME = 'weatherbot'
-SLACK_BOT_TOKEN = 'slacktoken'
+SLACK_BOT_TOKEN = slacktoken
 
 slack_client = SlackClient(SLACK_BOT_TOKEN)
 
