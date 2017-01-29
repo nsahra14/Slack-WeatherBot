@@ -1,1 +1,3 @@
 tokens.py
+*.py[cod]
+__pycache__/
