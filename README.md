@@ -10,5 +10,9 @@ Get the bot's attention by sending a message with `@[weatherbot's name]`, and as
 and fetches the weather for the city requested using the pyOWM API. `weatheroutput.txt` contains the JSON format of example `Weather` objects returned by the 
 pyOWM API's request for the weather at some place.
 
-####References
+####Resources
+[Slack API](https://api.slack.com/)
+
+[pyOWM API](https://github.com/csparpa/pyowm)
+
 Code used in part from [this](https://www.fullstackpython.com/blog/build-first-slack-bot-python.html) tutorial.
